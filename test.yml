@@ -2,7 +2,7 @@
 - hosts: all
   gather_facts: no
   vars:
-    #input: &input
+    input: &input
       hostname: "{{ netapp_hostname }}"
       username: "{{ netapp_username }}"
       password: "{{ netapp_password }}"
