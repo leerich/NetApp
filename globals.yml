@@ -1,8 +1,7 @@
 license_codes: AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,
 AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAA,AAAAAAAAAAAAAA
 
-disks: # at current the disks module assigns all visiable disks to a node. If you are wanting to 
-split disks, currently that has to be done manually
+disks: 
   - cluster-01
   - cluster-02
 motd: "The login in message you would like displayed when someone ssh's into the system"
