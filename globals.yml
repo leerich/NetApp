@@ -1,5 +1,8 @@
 cluster: lab-sim
 
+netapp_hostname: 3.89.92.143
+netapp_username: lrich00@gmail.com
+netapp_password: Foobar00
 
 license_codes: <removed>
 
