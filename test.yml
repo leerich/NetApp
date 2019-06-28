@@ -13,6 +13,5 @@
       username: "{{ netapp_username }}"
       password: "{{ netapp_password }}"
       https: true
-      ontapi: 32
       validate_certs: false
  
