@@ -1,6 +1,7 @@
 ---
 - hosts: all
   gather_facts: no
+  connection: local
   #vars:
   #  file: globals.yml
   #vars_files:
