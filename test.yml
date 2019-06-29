@@ -15,5 +15,5 @@
       password: "{{ netapp_password }}"
       https: true
       validate_certs: false
-      gather_subset: "aggregate info"
+      #gather_subset: "aggregate info"
  
