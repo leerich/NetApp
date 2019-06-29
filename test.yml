@@ -1,10 +1,10 @@
 ---
 - hosts: all
   gather_facts: no
-  vars:
-    file: globals.yml
-  vars_files:
-    - "{{ file }}"
+  #vars:
+  #  file: globals.yml
+  #vars_files:
+  #  - "{{ file }}"
   tasks:
   - name: Get Ontapi version
     na_ontap_gather_facts:
