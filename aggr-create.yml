@@ -1,0 +1,11 @@
+- name: Create Aggregates and wait 5 minutes until aggregate is online
+  na_ontap_aggregate:
+    state: present
+    service_state: online
+    name: ansibleAggr
+    disk_count: 1
+    wait_for_online: True
+    time_out: 300
+    hostname: "{{ netapp_hostname }}"
+    username: "{{ netapp_username }}"
+    password: "{{ netapp_password }}"
