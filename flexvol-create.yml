@@ -1,0 +1,18 @@
+---
+- name: Create FlexVol
+  na_ontap_volume:
+    state: present
+    name: ansibleVolume12
+    is_infinite: False
+    aggregate_name: ansible_aggr
+    size: 100
+    size_unit: mb
+    space_guarantee: none
+    policy: default
+    percent_snapshot_space: 60
+    vserver: ansibleVServer
+    wait_for_completion: True
+    hostname: "{{ netapp_hostname }}"
+    username: "{{ netapp_username }}"
+    password: "{{ netapp_password }}"
+

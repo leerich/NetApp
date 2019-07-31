@@ -1,0 +1,14 @@
+---
+- hosts: all
+  gather_facts: no
+  vars:
+    netapp_hostname: 172.31.27.221
+
+  tasks:
+
+    - name: include vars
+      include_vars:
+        file: all
+
+    - name: import other tasks
+      import_tasks: "{{ playbook }}" 
