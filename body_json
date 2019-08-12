@@ -28,7 +28,7 @@
   },
   "writingSpeedState": "NORMAL",
   "subnetId": "subnet-c0d9ec99",
-  "svmPassword": "F00bar00",
+  "svmPassword": "{{svm_password }}",
   "vpcId": "vpc-70548214",
   "ontapEncryptionParameters": null,
   "ebsVolumeType": "gp2",
